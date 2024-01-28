@@ -36,7 +36,7 @@ async def drawText(image_path, text):
     if os.name == "nt":
         fnt = "arial.ttf"
     else:
-        fnt = "./VIPMUSIC/assets/default.ttf"
+        fnt = "./VIPMUSIC/assets/heroko.ttf"
 
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
