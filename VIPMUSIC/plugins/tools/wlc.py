@@ -76,7 +76,7 @@ async def get_userinfo_img(
 # --------------------------------------------------------------------------------- #
 
 bg_path = "VIPMUSIC/assets/userinfo.png"
-font_path = "VIPMUSIC/assets/hiroko.ttf"
+font_path = "VIPMUSIC/assets/font.ttf"
 
 # --------------------------------------------------------------------------------- #
 
