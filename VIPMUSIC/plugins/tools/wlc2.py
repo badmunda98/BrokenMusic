@@ -19,7 +19,7 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from VIPMUSIC.utils.vip_ban import admin_filter
+from VIPMUSIC.utils.bad_ban import admin_filter
 
 
 
