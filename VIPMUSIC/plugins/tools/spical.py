@@ -137,7 +137,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 Nᴀᴍᴇ ✧ {user.mention}
 Iᴅ ✧ {user.id}
 Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
-👥ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀ ɴᴏᴡ » {count}
+📝 {chat.title}
 ➖➖➖➖➖➖➖➖➖➖➖➖
  ʀᴜʟs
  ɢᴀɴᴅ ɴᴀ ᴘᴀᴏ ***
@@ -164,6 +164,7 @@ async def bot_wel(_, message):
 NAME: {message.chat.title}
 ID: {message.chat.id}
 USERNAME: @{message.chat.username}
+📝 {chat.title}
 ➖➖➖➖➖➖➖➖➖➖➖➖
  ʀᴜʟs
  ɢᴀɴᴅ ɴᴀ ᴘᴀᴏ ***
