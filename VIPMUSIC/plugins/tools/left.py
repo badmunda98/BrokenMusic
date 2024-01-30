@@ -93,11 +93,9 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
         
             caption = f"**❅─────✧❅✦❅✧─────❅**\n\n**๏ ᴀ ᴍᴇᴍʙᴇʀ ʟᴇғᴛ ᴛʜᴇ ɢʀᴏᴜᴘ🥀**\n\n**➻** {member.old_chat_member.user.mention}\n\n**๏ ᴏᴋ ʙʏᴇ ᴅᴇᴀʀ ᴀɴᴅ ʜᴏᴘᴇ ᴛᴏ sᴇᴇ ʏᴏᴜ ᴀɢᴀɪɴ ɪɴ ᴛʜɪs ᴄᴜᴛᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʏᴏᴜʀ ғʀɪᴇɴᴅs✨**\n\n**ㅤ•─╼⃝𖠁 ʙʏᴇ ♡︎ ʙᴀʙʏ 𖠁⃝╾─•**"
             button_text = "๏ ᴠɪᴇᴡ ᴜsᴇʀ ๏"
-            add_button_text = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
 
             # Generate a deep link to open the user's profile
             deep_link = f"tg://openmessage?user_id={user.id}"
-            deep_link = f"https://t.me/MissBroken_Bot?startgroup=true"
 
             # Send the message with the photo, caption, and button
             await client.send_photo(
@@ -106,7 +104,6 @@ async def member_has_left(client: app, member: ChatMemberUpdated):
                 caption=caption,
                 reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton(button_text, url=deep_link)]
-                    [InlineKeyboardButton(button_text, url=https://t.me/MissBroken_Bot?startgroup=true)]
                 ])
             )
         except RPCError as e:
