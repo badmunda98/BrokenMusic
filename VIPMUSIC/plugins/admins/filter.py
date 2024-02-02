@@ -98,7 +98,7 @@ async def stopall(client, message):
     chat_id = message.chat.id
     chat_title = message.chat.title 
     user = await client.get_chat_member(chat_id,message.from_user.id)
-    if not user.status == ChatMemberStatus.OWNER :
+    if not user.status == ChatMemberStatus.ADMIN :
         return await message.reply_text("Only Owner Can Use This!!") 
 
     KEYBOARD = InlineKeyboardMarkup(
