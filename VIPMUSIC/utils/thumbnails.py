@@ -31,7 +31,7 @@ def add_corners(im):
     im.putalpha(mask)
 
 
-async def gen_thumb(videoid, chat_id):
+async def get_thumb(videoid, chat_id):
     if os.path.isfile(f"cache/{videoid}_{chat_id}.png"):
         return f"cache/{videoid}_{chat_id}.png"
     url = f"https://www.youtube.com/watch?v={videoid}"
