@@ -103,7 +103,7 @@ async def get_thumb(videoid):
         para = textwrap.wrap(clear(title), width=32) 
         j = 0
         draw.text(
-            (6, 6), f"{BOT_NAME}", fill="blue", font=name_font
+            (6, 6), f"{BOT_NAM}", fill="blue", font=name_font
         )
         draw.text(
             (600, 200),
