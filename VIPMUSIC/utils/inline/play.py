@@ -181,6 +181,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     ]
     return buttons
     def panel_markup_1(_, videoid, chat_id):
+        
     buttons = [
         [
             InlineKeyboardButton(
@@ -216,7 +217,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 text="๏ ɴᴇxᴛ ๏",
                 callback_data=f"Pages Forw|0|{videoid}|{chat_id}",
             ),
-        ],
+        ]
     ]
     return buttons
 
