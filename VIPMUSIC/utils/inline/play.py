@@ -5,16 +5,10 @@ from pyrogram.types import InlineKeyboardButton
 from VIPMUSIC.utils.formatters import time_to_seconds
 
 from VIPMUSIC import app
-
 def track_markup(_, user_id, channel, fplay):
     buttons = [
 
         [
-            InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{app.username}?startgroup=true",
-            ),
-            ],
             [
             InlineKeyboardButton(
                 text=_["P_B_1"],
@@ -58,12 +52,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     else:
         bar = "—————————◉"
         
-    buttons  = [
-
-        [
+ buttons = [
+                [
             InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{app.username}?startgroup=true",
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
             ),
           ],
           [
@@ -94,12 +87,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
 
 def stream_markup(_, chat_id):
-    buttons  = [
-
-        [
+    
+buttons = [
+                [
             InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{app.username}?startgroup=true",
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
             ),
           ],
           [
@@ -152,15 +145,12 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
 
 
 def livestream_markup(_, videoid, user_id, mode, channel, fplay):
-    buttons = [
-        [
-           InlineKeyboardButton(
-
-                text=_["S_B_5"],
-
-                url=f"https://t.me/{app.username}?startgroup=true",
-
-            ),
+buttons = [
+                [
+            InlineKeyboardButton(
+                text=f"{played} {bar} {dur}",
+                callback_data="GetTimer",
+            )
 
         ],
         [
