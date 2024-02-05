@@ -9,7 +9,6 @@ def track_markup(_, user_id, channel, fplay):
     buttons = [
 
         [
-            [
             InlineKeyboardButton(
                 text=_["P_B_1"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
