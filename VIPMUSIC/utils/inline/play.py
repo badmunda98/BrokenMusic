@@ -68,14 +68,14 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
           ],
           [
             InlineKeyboardButton(
-                text="ᴘᴀᴜsᴇ",
+                text="ᴘ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
+                text="s", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"
+                text="sᴘ", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
@@ -104,14 +104,14 @@ def stream_markup(_, chat_id):
           ],
           [
             InlineKeyboardButton(
-                text="ᴘᴀᴜsᴇ",
+                text="ᴘᴀ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
+                text="s", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"
+                text="ᴘ", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
@@ -248,14 +248,14 @@ def queue_markup(_, videoid, chat_id):
             ],
             [
             InlineKeyboardButton(
-                text="ᴘᴀᴜsᴇ",
+                text="ᴘ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"
+                text="sᴘ", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"
+                text="s", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
