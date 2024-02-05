@@ -94,13 +94,14 @@ def stream_markup(_, chat_id):
         ],
                  
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
-    ],
+    
             [
             InlineKeyboardButton(
                 text="๏ ᴍᴏʀᴇ ๏",
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ]
+    ]
     return buttons
 
 
