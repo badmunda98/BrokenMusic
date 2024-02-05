@@ -22,7 +22,6 @@ from VIPMUSIC.utils.database import (
 from VIPMUSIC.utils.decorators.language import languageCB
 from VIPMUSIC.utils.formatters import seconds_to_min
 from VIPMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from VIPMUSIC.utils.inline.play import panel_markup_1, panel_markup_2, panel_markup_3
 from VIPMUSIC.utils.stream.autoclear import auto_clean
 from VIPMUSIC.utils.thumbnails import get_thumb
 from config import BANNED_USERS, SOUNCLOUD_IMG_URL, STREAM_IMG_URL, TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist, confirmer, votemode
