@@ -7,7 +7,7 @@ import uuid
 import asyncio
 from VIPMUSIC.utils.feds_db import *
 import os
-from VIPNUSIC import app
+from VIPMUSIC import app
 import config
 #from config import BOT_USERNAME as BOT_ID
 from VIPMUSIC.misc import SUDOERS as SUDO
