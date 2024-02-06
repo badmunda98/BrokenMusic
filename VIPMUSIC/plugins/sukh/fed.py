@@ -18,7 +18,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus, ChatType, ParseMode
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VIPMUSIC.utils.fedban import extract_user, extract_user_and_reason
+from VIPMUSIC.utils.fedfun import extract_user, extract_user_and_reason
 from pyrogram.errors import FloodWait, PeerIdInvalid
 from VIPMUSIC.utils.errors import capture_err
 
