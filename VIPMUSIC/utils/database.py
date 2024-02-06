@@ -24,6 +24,8 @@ usersdb = mongodb.tgusersdb
 privatedb = mongodb.privatechats
 suggdb = mongodb.suggestion
 cleandb = mongodb.cleanmode
+fbandb = mongodb
+blacklist_db = mongodb
 
 # Shifting to memory [mongo sucks often]
 active = []
