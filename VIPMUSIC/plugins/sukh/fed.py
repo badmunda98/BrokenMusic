@@ -5,7 +5,7 @@ Copyright (c) 2024 @Alone_Dil_bot
 
 import uuid
 import asyncio
-from VIPMUSIC.utils.bad2db.feds_db import *
+from VIPMUSIC.utils.feds_db import *
 import os
 from VIPNUSIC import app
 import config
