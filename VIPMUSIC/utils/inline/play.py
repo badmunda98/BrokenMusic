@@ -11,7 +11,7 @@ def track_markup(_, user_id, channel, fplay):
 
         [
             InlineKeyboardButton(
-                text=_["▰▰▰▰▰▱▱▱▱▱"],
+                text=_["S_B_11"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
             ],
@@ -62,7 +62,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text=_["S_B_11"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
           ],
@@ -98,7 +98,7 @@ def stream_markup(_, chat_id):
 
         [
             InlineKeyboardButton(
-                text=_["▰▰▰▰▰▱▱▱▱▱"],
+                text=_["S_B_11"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
           ],
