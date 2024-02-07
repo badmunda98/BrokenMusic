@@ -98,7 +98,7 @@ def stream_markup(_, chat_id):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_11"],
+                text=_["S_B_5"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
           ],
