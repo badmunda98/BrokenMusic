@@ -98,9 +98,9 @@ def stream_markup(_, chat_id):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
-                url=f"https://t.me/{app.username}?startgroup=true",
-            ),
+                text=f"{played} {bar} {dur}",
+                callback2_data="GetTimer",
+            )
           ],
           [
             InlineKeyboardButton(
